@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const plm = require("passport-local-mongoose");
 
-mongoose.connect("mongodb://0.0.0.0:27017/testdb");
+mongoose.connect("mongodb+srv://jatin-wakodikar:Jatin@4196@mera-cluster.karqf3f.mongodb.net/?retryWrites=true&w=majority");
 
 const userSchema = mongoose.Schema({
   username: String,
